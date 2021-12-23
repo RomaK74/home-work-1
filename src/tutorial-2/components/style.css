@@ -1,0 +1,23 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    top: calc(50% - 66px);
+    border: 1px solid gray;
+    padding: 30px 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    outline: 0;
+}
