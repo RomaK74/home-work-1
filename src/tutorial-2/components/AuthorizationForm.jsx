@@ -12,7 +12,7 @@ export const AuthorizationForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (email && password) {
-            console.log({email, password});
+
             e.target.reset();
         } else
             alert("Заполните поля!")

@@ -18,7 +18,6 @@ function App() {
         let ni = getRandomInt(nounsArr.length);
         let newPhrase = adjectivesArr[ai] + ' ' + adjectivesArr[ai2] + ' ' + nounsArr[ni];
         setPhrases(prev => [...prev, newPhrase]);
-        console.log(phrases);
     }
 
     return (
