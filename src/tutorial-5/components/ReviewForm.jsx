@@ -67,7 +67,6 @@ export const ReviewForm = ({sendComment}) => {
                 fullWidth
                 multiline
                 rows={4}
-                height={20}
                 value={message}
                 onChange={handleChangeMessage}
             />
