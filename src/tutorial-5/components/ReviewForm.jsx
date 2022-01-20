@@ -1,3 +1,4 @@
+
 import React, {useState} from "react";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
@@ -67,7 +68,6 @@ export const ReviewForm = ({sendComment}) => {
                 fullWidth
                 multiline
                 rows={4}
-                height={20}
                 value={message}
                 onChange={handleChangeMessage}
             />
